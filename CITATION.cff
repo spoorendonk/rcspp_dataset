@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Resource Constrained Shortest Path Problem Instances with Time Windows, Capacity, and Neighbourhoods"
+abstract: >-
+  A dataset of Resource Constrained Shortest Path Problem (RCSPP) instances with time windows,
+  vehicle capacity, and vertex neighbourhoods. The instances are generated as the root-node
+  pricing problems that arise when solving the 56 Solomon VRPTW instances by column generation;
+  three instances (neighbourhood sizes N8, N16, N24) are provided per Solomon instance, in a
+  DIMACS-like .graph format.
+authors:
+  - family-names: Spoorendonk
+    given-names: Simon
+    orcid: "https://orcid.org/0009-0007-4304-6956"
+date-released: "2025-11-03"
+license: MIT
+repository-code: "https://github.com/spoorendonk/rcspp_dataset"
+url: "https://github.com/spoorendonk/rcspp_dataset"
+keywords:
+  - resource constrained shortest path problem
+  - vehicle routing
+  - column generation
+  - pricing problem
+  - ng-path relaxation
+  - benchmark instances
+references:
+  - type: article
+    title: "Algorithms for the Vehicle Routing and Scheduling Problems with Time Window Constraints"
+    authors:
+      - family-names: Solomon
+        given-names: "Marius M."
+    journal: "Operations Research"
+    volume: 35
+    issue: 2
+    start: 254
+    end: 265
+    year: 1987
+    doi: "10.1287/opre.35.2.254"
+    notes: "The original Solomon VRPTW instances from which these RCSPP pricing instances are generated."
